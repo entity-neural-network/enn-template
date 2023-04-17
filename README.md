@@ -25,7 +25,7 @@ If using `poetry` and GPU:
 ```
 poetry install
 poetry run pip install torch==1.12.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
-poetry run pip --no-index install torch-scatter -f https://data.pyg.org/whl/torch-1.12.0+cu113.html
+poetry run pip install --no-index torch-scatter -f https://data.pyg.org/whl/torch-1.12.0+cu113.html
 ```
 
 If using `poetry` and CPU:
@@ -33,7 +33,7 @@ If using `poetry` and CPU:
 ```
 poetry install
 poetry run pip install torch==1.12.0+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
-poetry run pip --no-index install torch-scatter -f https://data.pyg.org/whl/torch-1.12.0+cpu.html
+poetry run pip install --no-index torch-scatter -f https://data.pyg.org/whl/torch-1.12.0+cpu.html
 ```
 
 ## Usage
