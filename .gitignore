@@ -1,0 +1,7 @@
+.vscode
+*.egg-info
+*.pyc
+wandb/
+runs/
+.dmypy.json
+__pycache__
