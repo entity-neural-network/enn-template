@@ -1,6 +1,6 @@
 # ENN Template
 
-Template for creating custom [Entity Gym]() environments and training agents with [enn-trainer]().
+Template for creating custom [Entity Gym](https://github.com/entity-neural-network/entity-gym) environments and training agents with [enn-trainer](https://github.com/entity-neural-network/enn-trainer).
 
 ## Installation
 
